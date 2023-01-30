@@ -1,0 +1,1 @@
+web: gunicorn jewrls_corner.wsgi:application

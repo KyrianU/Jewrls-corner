@@ -1,0 +1,67 @@
+[
+    {
+        "pk": 1,
+        "model": "products.category",
+        "fields": {
+            "name": "necklaces",
+            "friendly name": "necklaces"
+        }
+    
+    },
+    {
+        "pk": 2,
+        "model": "products.category",
+        "fields": {
+            "name": "rings",
+            "friendly name": "rings"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "products.category",
+        "fields": {
+            "name": "bracelets",
+            "friendly name": "bracelets"
+        }
+    } ,
+    {
+        "pk": 4,
+        "model": "products.category",
+        "fields": {
+            "name": "all_jewellery",
+            "friendly name": "All jewellery"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "products.category",
+        "fields": {
+            "name": "Ladies",
+            "friendly name": "Ladies"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "products.category",
+        "fields": {
+            "name": "Gents",
+            "friendly name": "Gents"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "products.category",
+        "fields": {
+            "name": "sale",
+            "friendly name": "Sale"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "products.category",
+        "fields": {
+            "name": "new_arrivals",
+            "friendly name": "New Arrivals"
+        }
+    }
+    ]
