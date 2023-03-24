@@ -1,0 +1,302 @@
+[
+    {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "category": 1,
+            "sku": "1001",
+            "name": "rings",
+            "price": "35.99",
+            "rating": "4.6",
+            "description": "Mens roman numeral ring",
+            "image": "men-ring-1.webp"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "products.product",
+        "fields": {
+            "category": 1,
+            "sku": "1002",
+            "name": "rings",
+            "price": "30.99",
+            "rating": "4.4",
+            "description": "Mens chain stainless steel ring",
+            "image": "men-ring-2.webp"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "products.product",
+        "fields": {
+            "category": 1,
+            "sku": "1003",
+            "name": "rings",
+            "price" : "32.99",
+            "rating": "4.5",
+            "description": "Mens matte stainless steel ring",
+            "image": "men-ring-3.webp"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "products.product",
+        "fields": {
+            "category": 1,
+            "sku": "1004",
+            "name": "rings",
+            "price": "37.99",
+            "rating": "4.8",
+            "description": "Mens black stainless steel ring",
+            "image": "men-ring-4.webp"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "products.product",
+        "fields": {
+            "category": 2,
+            "sku": "2001",
+            "name": "necklace",
+            "price": "49.99",
+            "rating": "4.7",
+            "description": "Mens Iced Cuban Link Chain",
+            "image": "men-cuban-necklace.jpg"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "products.product",
+        "fields": {
+            "category": 2,
+            "sku": "2002",
+            "name": "necklace",
+            "price": "55.99",
+            "rating": "4.9",
+            "description": "Mens Iced Cuban Link Chain In Gold",
+            "image": "men-cuban-necklace-4.jpg"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "products.product",
+        "fields": {
+            "category": 2,
+            "sku": "2003",
+            "name": "necklace",
+            "price": "53.99",
+            "rating": "4.7",
+            "description": "Mens Iced Cuban Link Chain In silver",
+            "image": "men-cuban-necklace-2.webp"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "products.product",
+        "fields": {
+            "category": 2,
+            "sku": "2004",
+            "name": "necklace",
+            "price": "39.99",
+            "rating": "4.6",
+            "description": "Men's silver necklace with compass pendant",
+            "image": "men-necklace-1.jpg"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "products.product",
+        "fields":{
+            "category": 2,
+            "sku": "2005",
+            "name": "necklace",
+            "price": "30.99",
+            "rating": "4.7",
+            "description": "Mens stainless steel silver chain",
+            "image": "men-necklace-2.jpg"
+        }
+    },
+    {
+        "pk": 10,
+        "model": "products.product",
+        "fields": {
+            "category": 3,
+            "sku": "3001",
+            "name": "Cuban link bracelet",
+            "price": "20.99",
+            "rating": "4.7",
+            "description": "Men Cuban link bracelet in matte black",
+            "image": "men-bracelet-1.webp"
+        }
+    },
+    {
+        "pk": 11,
+        "model": "products.product",
+        "fields": {
+            "category": 3,
+            "sku": "3002",
+            "name": "Cuban link bracelet",
+            "price": "25.99",
+            "rating": "4.8",
+            "description": "Mens cuban link bracelet in silver",
+            "image": "men-cuban-bracelet.jpg"
+        }
+    },
+    {
+        "pk": 12,
+        "model": "products.product",
+        "fields": {
+            "category": 3,
+            "sku": "3003",
+            "name": "Cuban chain bracelet",
+            "price": "27.99",
+            "rating": "4.7",
+            "description": "Men cuban chain bracelet in gold",
+            "image": "men-cuban-bracelet-2.jpg"
+        }
+    },
+    {
+        "pk": 13,
+        "model": "products.product",
+        "fields": {
+            "category": 3,
+            "sku": "3004",
+            "name": "Mens bracelet",
+            "price":"20.99",
+            "rating": "4.6",
+            "description": "Mens stainless steel bracelet in silver",
+            "image": "men-bracelet-2.jpg"
+        }
+    },
+    {
+        "pk": 14,
+        "model": "products.product",
+        "fields": {
+            "category": 4,
+            "sku": "4001",
+            "name": "Womens Necklace",
+            "price": "45.99",
+            "rating": "4.9",
+            "description": "Womens Cuban link chain in silver with cross sword pendant",
+            "image": "women-necklace-3.webp"
+        }
+    },
+    {
+        "pk": 15,
+        "model": "products.product",
+        "fields": {
+            "category": 4,
+            "sku": "4002",
+            "name": "Womens necklace",
+            "price": "35.99",
+            "rating": "4.5",
+            "description": "Womens plain necklace with cross pendants",
+            "image": "women-necklace-6.jpg"
+        }
+    },
+    {
+        "pk": 16,
+        "model": "products.product",
+        "fields": {
+            "category": 4,
+            "sku": "4003",
+            "name": "Womens Necklace",
+            "price": "30.99",
+            "rating": "4.5",
+            "description": "Womens stainless steel necklace with cross pendants",
+            "image": "women-necklace-5.jpg"
+        }
+    },
+    {
+        "pk": 17,
+        "model": "products.product",
+        "fields": {
+            "category": 5,
+            "sku": "5001",
+            "name": "Womens Ring",
+            "price": "25.99",
+            "rating": "4.6",
+            "description": "Womens Stainless steel ring with diamonds",
+            "image": "women-crystal-ring.jpg"
+        }
+    },
+    {
+        "pk": 18,
+        "model": "products.product",
+        "fields": {
+            "category": 5,
+            "sku": "5002",
+            "name": "Womens Ring",
+            "price": "22.99",
+            "rating": "4.7",
+            "description": "Womens charmed stainless steel ring",
+            "image": "women-charm-ring.jpg"
+        }
+    },
+    {
+        "pk": 19,
+        "model": "products.product",
+        "fields": {
+            "category": 5,
+            "sku": "5003",
+            "name": "Womens Ring",
+            "price": "25.99",
+            "rating": "4.6",
+            "description": "Womens Stainless steel ring with purple Inlay",
+            "image": "Women-stainless-steel-ring.jpg"
+        }
+    },
+    {
+        "pk": 20,
+        "model": "products.product",
+        "fields": {
+            "category": 6,
+            "sku": "6001",
+            "name": "Womens bracelet",
+            "price": "30.99",
+            "rating": "4.8",
+            "description": "Womens crystal style bracelet in silver",
+            "image": "women-bracelet-1"
+        }
+    },
+    {
+        "pk": 21,
+        "model": "products.product",
+        "fields": {
+            "category": 6,
+            "sku": "6002",
+            "name": "Womens bracelet",
+            "price": "35.99",
+            "rating": "4.7",
+            "description": "Womens stainless bangles in rose gold, gold and silver",
+            "image": "women-bracelets-2.jpg"
+        }
+    },
+    {
+        "pk": 22,
+        "model": "products.product",
+        "fields": {
+            "category": 6,
+            "sku": "6003",
+            "name": "Womens bracelet",
+            "price": "27.99",
+            "rating": "4.5",
+            "description": "Women stainless steel bangles in rose gold",
+            "image": "women-bracelet-3.jpg"
+        }
+    },
+    {
+        "pk": 23,
+        "model": "products.product",
+        "fields": {
+            "category": 6,
+            "sku": "6004",
+            "name": "Womens bracelet",
+            "price": "25.99",
+            "rating": "4.6",
+            "description": "Women stainless steel open style bangle in silver",
+            "image": "women-bracelet-4.jpg"
+        }
+    }
+
+]
