@@ -4,7 +4,7 @@
         "model": "products.category",
         "fields": {
             "name": "necklaces",
-            "friendly name": "necklaces"
+            "friendly_name": "necklaces"
         }
     
     },
@@ -13,7 +13,7 @@
         "model": "products.category",
         "fields": {
             "name": "rings",
-            "friendly name": "rings"
+            "friendly_name": "rings"
         }
     },
     {
@@ -21,7 +21,7 @@
         "model": "products.category",
         "fields": {
             "name": "bracelets",
-            "friendly name": "bracelets"
+            "friendly_name": "bracelets"
         }
     } ,
     {
@@ -29,7 +29,7 @@
         "model": "products.category",
         "fields": {
             "name": "all_jewellery",
-            "friendly name": "All jewellery"
+            "friendly_name": "All jewellery"
         }
     },
     {
@@ -37,7 +37,7 @@
         "model": "products.category",
         "fields": {
             "name": "Ladies",
-            "friendly name": "Ladies"
+            "friendly_name": "Ladies"
         }
     },
     {
@@ -45,7 +45,7 @@
         "model": "products.category",
         "fields": {
             "name": "Gents",
-            "friendly name": "Gents"
+            "friendly_name": "Gents"
         }
     },
     {
@@ -53,7 +53,7 @@
         "model": "products.category",
         "fields": {
             "name": "sale",
-            "friendly name": "Sale"
+            "friendly_name": "Sale"
         }
     },
     {
@@ -61,7 +61,7 @@
         "model": "products.category",
         "fields": {
             "name": "new_arrivals",
-            "friendly name": "New Arrivals"
+            "friendly_name": "New Arrivals"
         }
     }
     ]

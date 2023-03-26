@@ -9,6 +9,7 @@
             "price": "35.99",
             "rating": "4.6",
             "description": "Mens roman numeral ring",
+            "image_url": null,
             "image": "men-ring-1.webp"
         }
     },
@@ -22,6 +23,7 @@
             "price": "30.99",
             "rating": "4.4",
             "description": "Mens chain stainless steel ring",
+            "image_url": null,
             "image": "men-ring-2.webp"
         }
     },
@@ -31,10 +33,11 @@
         "fields": {
             "category": 1,
             "sku": "1003",
-            "name": "rings",
+            "name": "Rings",
             "price" : "32.99",
             "rating": "4.5",
             "description": "Mens matte stainless steel ring",
+            "image_url": null,
             "image": "men-ring-3.webp"
         }
     },
@@ -44,10 +47,11 @@
         "fields": {
             "category": 1,
             "sku": "1004",
-            "name": "rings",
+            "name": "Rings",
             "price": "37.99",
             "rating": "4.8",
             "description": "Mens black stainless steel ring",
+            "image_url": null,
             "image": "men-ring-4.webp"
         }
     },
@@ -57,10 +61,11 @@
         "fields": {
             "category": 2,
             "sku": "2001",
-            "name": "necklace",
+            "name": "Necklace",
             "price": "49.99",
             "rating": "4.7",
             "description": "Mens Iced Cuban Link Chain",
+            "image_url": null,
             "image": "men-cuban-necklace.jpg"
         }
     },
@@ -70,10 +75,11 @@
         "fields": {
             "category": 2,
             "sku": "2002",
-            "name": "necklace",
+            "name": "Necklace",
             "price": "55.99",
             "rating": "4.9",
             "description": "Mens Iced Cuban Link Chain In Gold",
+            "image_url": null,
             "image": "men-cuban-necklace-4.jpg"
         }
     },
@@ -83,10 +89,11 @@
         "fields": {
             "category": 2,
             "sku": "2003",
-            "name": "necklace",
+            "name": "Necklace",
             "price": "53.99",
             "rating": "4.7",
             "description": "Mens Iced Cuban Link Chain In silver",
+            "image_url": null,
             "image": "men-cuban-necklace-2.webp"
         }
     },
@@ -96,10 +103,11 @@
         "fields": {
             "category": 2,
             "sku": "2004",
-            "name": "necklace",
+            "name": "Necklace",
             "price": "39.99",
             "rating": "4.6",
             "description": "Men's silver necklace with compass pendant",
+            "image_url": null,
             "image": "men-necklace-1.jpg"
         }
     },
@@ -109,10 +117,11 @@
         "fields":{
             "category": 2,
             "sku": "2005",
-            "name": "necklace",
+            "name": "Necklace",
             "price": "30.99",
             "rating": "4.7",
             "description": "Mens stainless steel silver chain",
+            "image_url": null,
             "image": "men-necklace-2.jpg"
         }
     },
@@ -126,6 +135,7 @@
             "price": "20.99",
             "rating": "4.7",
             "description": "Men Cuban link bracelet in matte black",
+            "image_url": null,
             "image": "men-bracelet-1.webp"
         }
     },
@@ -139,6 +149,7 @@
             "price": "25.99",
             "rating": "4.8",
             "description": "Mens cuban link bracelet in silver",
+            "image_url": null,
             "image": "men-cuban-bracelet.jpg"
         }
     },
@@ -152,6 +163,7 @@
             "price": "27.99",
             "rating": "4.7",
             "description": "Men cuban chain bracelet in gold",
+            "image_url": null,
             "image": "men-cuban-bracelet-2.jpg"
         }
     },
@@ -165,6 +177,7 @@
             "price":"20.99",
             "rating": "4.6",
             "description": "Mens stainless steel bracelet in silver",
+            "image_url": null,
             "image": "men-bracelet-2.jpg"
         }
     },
@@ -178,6 +191,7 @@
             "price": "45.99",
             "rating": "4.9",
             "description": "Womens Cuban link chain in silver with cross sword pendant",
+            "image_url": null,
             "image": "women-necklace-3.webp"
         }
     },
@@ -191,6 +205,7 @@
             "price": "35.99",
             "rating": "4.5",
             "description": "Womens plain necklace with cross pendants",
+            "image_url": null,
             "image": "women-necklace-6.jpg"
         }
     },
@@ -204,6 +219,7 @@
             "price": "30.99",
             "rating": "4.5",
             "description": "Womens stainless steel necklace with cross pendants",
+            "image_url": null,
             "image": "women-necklace-5.jpg"
         }
     },
@@ -217,6 +233,7 @@
             "price": "25.99",
             "rating": "4.6",
             "description": "Womens Stainless steel ring with diamonds",
+            "image_url": null,
             "image": "women-crystal-ring.jpg"
         }
     },
@@ -230,6 +247,7 @@
             "price": "22.99",
             "rating": "4.7",
             "description": "Womens charmed stainless steel ring",
+            "image_url": null,
             "image": "women-charm-ring.jpg"
         }
     },
@@ -243,6 +261,7 @@
             "price": "25.99",
             "rating": "4.6",
             "description": "Womens Stainless steel ring with purple Inlay",
+            "image_url": null,
             "image": "Women-stainless-steel-ring.jpg"
         }
     },
@@ -256,6 +275,7 @@
             "price": "30.99",
             "rating": "4.8",
             "description": "Womens crystal style bracelet in silver",
+            "image_url": null,
             "image": "women-bracelet-1"
         }
     },
@@ -269,6 +289,7 @@
             "price": "35.99",
             "rating": "4.7",
             "description": "Womens stainless bangles in rose gold, gold and silver",
+            "image_url": null,
             "image": "women-bracelets-2.jpg"
         }
     },
@@ -282,6 +303,7 @@
             "price": "27.99",
             "rating": "4.5",
             "description": "Women stainless steel bangles in rose gold",
+            "image_url": null,
             "image": "women-bracelet-3.jpg"
         }
     },
@@ -295,6 +317,7 @@
             "price": "25.99",
             "rating": "4.6",
             "description": "Women stainless steel open style bangle in silver",
+            "image_url": null,
             "image": "women-bracelet-4.jpg"
         }
     }
