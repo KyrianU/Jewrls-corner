@@ -59,6 +59,34 @@
         "pk": 5,
         "model": "products.product",
         "fields": {
+            "category": 1,
+            "sku": "1005",
+            "name": "Rings set",
+            "price": "40.99",
+            "rating": "4.8",
+            "description": "Mens stainless steel ringset in matte black, gold and silver",
+            "image_url": null,
+            "image": "men-ringset-1.jpg"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "products.product",
+        "fields": {
+            "category": 1,
+            "sku": "1006",
+            "name": "Rings set",
+            "price": "40.99",
+            "rating": "4.7",
+            "description": "Mens faux carbon fibre mood ringset in dark and light colour",
+            "image_url": null,
+            "image": "mens-ringset-2.jpg"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "products.product",
+        "fields": {
             "category": 2,
             "sku": "2001",
             "name": "Necklace",
@@ -70,7 +98,7 @@
         }
     },
     {
-        "pk": 6,
+        "pk": 8,
         "model": "products.product",
         "fields": {
             "category": 2,
@@ -84,7 +112,7 @@
         }
     },
     {
-        "pk": 7,
+        "pk": 9,
         "model": "products.product",
         "fields": {
             "category": 2,
@@ -98,7 +126,7 @@
         }
     },
     {
-        "pk": 8,
+        "pk": 10,
         "model": "products.product",
         "fields": {
             "category": 2,
@@ -112,7 +140,7 @@
         }
     },
     {
-        "pk": 9,
+        "pk": 11,
         "model": "products.product",
         "fields":{
             "category": 2,
@@ -126,7 +154,21 @@
         }
     },
     {
-        "pk": 10,
+        "pk": 12,
+        "model": "products.product",
+        "fields": {
+            "category": 2,
+            "sku": "2006",
+            "name": "Necklace",
+            "price": "55.99",
+            "rating": "4.8",
+            "description": "Mens Cuban link chain in silver with cross sword pendant",
+            "image_url": null,
+            "image": "men-necklace-3.jpg"
+        }
+    },
+    {
+        "pk": 13,
         "model": "products.product",
         "fields": {
             "category": 3,
@@ -140,7 +182,7 @@
         }
     },
     {
-        "pk": 11,
+        "pk": 14,
         "model": "products.product",
         "fields": {
             "category": 3,
@@ -154,7 +196,7 @@
         }
     },
     {
-        "pk": 12,
+        "pk": 15,
         "model": "products.product",
         "fields": {
             "category": 3,
@@ -168,7 +210,7 @@
         }
     },
     {
-        "pk": 13,
+        "pk": 16,
         "model": "products.product",
         "fields": {
             "category": 3,
@@ -182,73 +224,31 @@
         }
     },
     {
-        "pk": 14,
-        "model": "products.product",
-        "fields": {
-            "category": 4,
-            "sku": "4001",
-            "name": "Womens Necklace",
-            "price": "45.99",
-            "rating": "4.9",
-            "description": "Womens Cuban link chain in silver with cross sword pendant",
-            "image_url": null,
-            "image": "women-necklace-3.webp"
-        }
-    },
-    {
-        "pk": 15,
-        "model": "products.product",
-        "fields": {
-            "category": 4,
-            "sku": "4002",
-            "name": "Womens necklace",
-            "price": "35.99",
-            "rating": "4.5",
-            "description": "Womens plain necklace with cross pendants",
-            "image_url": null,
-            "image": "women-necklace-6.jpg"
-        }
-    },
-    {
-        "pk": 16,
-        "model": "products.product",
-        "fields": {
-            "category": 4,
-            "sku": "4003",
-            "name": "Womens Necklace",
-            "price": "30.99",
-            "rating": "4.5",
-            "description": "Womens stainless steel necklace with cross pendants",
-            "image_url": null,
-            "image": "women-necklace-5.jpg"
-        }
-    },
-    {
         "pk": 17,
         "model": "products.product",
         "fields": {
-            "category": 5,
-            "sku": "5001",
-            "name": "Womens Ring",
+            "category": 3,
+            "sku": "3005",
+            "name": "Mens bracelet",
             "price": "25.99",
-            "rating": "4.6",
-            "description": "Womens Stainless steel ring with diamonds",
+            "rating": "4.5",
+            "description": "Mens woven style bracelet sets",
             "image_url": null,
-            "image": "women-crystal-ring.jpg"
+            "image": "men-bracelet-set-1.jpg"
         }
     },
     {
         "pk": 18,
         "model": "products.product",
         "fields": {
-            "category": 5,
-            "sku": "5002",
-            "name": "Womens Ring",
-            "price": "22.99",
+            "category": 3,
+            "sku": "3006",
+            "name": "Mens bracelet",
+            "price": "40.99",
             "rating": "4.7",
-            "description": "Womens charmed stainless steel ring",
+            "description": "Mens Stainless steel roman numeral bracelets in rose gold, gold, silver and matte black",
             "image_url": null,
-            "image": "women-charm-ring.jpg"
+            "image": "Stainless-steel-roman-bracelets.jpg"
         }
     },
     {
@@ -256,55 +256,55 @@
         "model": "products.product",
         "fields": {
             "category": 5,
-            "sku": "5003",
-            "name": "Womens Ring",
-            "price": "25.99",
-            "rating": "4.6",
-            "description": "Womens Stainless steel ring with purple Inlay",
+            "sku": "5001",
+            "name": "Rings",
+            "price": "15.99",
+            "rating": "4.4",
+            "description": "Mens stainless steel ring in black with purple inprint",
             "image_url": null,
-            "image": "Women-stainless-steel-ring.jpg"
+            "image": "men-stainless-steel-ring.jpg"
         }
     },
     {
         "pk": 20,
         "model": "products.product",
         "fields": {
-            "category": 6,
-            "sku": "6001",
-            "name": "Womens bracelet",
-            "price": "30.99",
-            "rating": "4.8",
-            "description": "Womens crystal style bracelet in silver",
+            "category": 5,
+            "sku": "5002",
+            "name": "Rings",
+            "price": "13.99",
+            "rating": "4.4",
+            "description": "Mens diamond ring",
             "image_url": null,
-            "image": "women-bracelet-1"
+            "image": "men-diamond-ring.jpg"
         }
     },
     {
         "pk": 21,
         "model": "products.product",
         "fields": {
-            "category": 6,
-            "sku": "6002",
-            "name": "Womens bracelet",
-            "price": "35.99",
-            "rating": "4.7",
-            "description": "Womens stainless bangles in rose gold, gold and silver",
+            "category": 5,
+            "sku": "5003",
+            "name": "Necklace",
+            "price": "10.99",
+            "rating": "4.5",
+            "description": "Mens necklace with cross pendant",
             "image_url": null,
-            "image": "women-bracelets-2.jpg"
+            "image": "men-necklace-6.jpg"
         }
     },
     {
         "pk": 22,
         "model": "products.product",
         "fields": {
-            "category": 6,
-            "sku": "6003",
-            "name": "Womens bracelet",
-            "price": "27.99",
-            "rating": "4.5",
-            "description": "Women stainless steel bangles in rose gold",
+            "category": 5,
+            "sku": "5004",
+            "name": "Necklace",
+            "price": "12.99",
+            "rating":"4.5",
+            "description": "Mens stainless necklace with lightning pendant",
             "image_url": null,
-            "image": "women-bracelet-3.jpg"
+            "image": "men-necklace-5.jpg"
         }
     },
     {
@@ -312,14 +312,42 @@
         "model": "products.product",
         "fields": {
             "category": 6,
-            "sku": "6004",
-            "name": "Womens bracelet",
-            "price": "25.99",
-            "rating": "4.6",
-            "description": "Women stainless steel open style bangle in silver",
+            "sku": "6001",
+            "name": "Bracelets",
+            "price": "28.99",
+            "rating": "4.9",
+            "description": "Mens charm bracelet set",
             "image_url": null,
-            "image": "women-bracelet-4.jpg"
+            "image": "men-bracelet-charm2.jpg"
+        }
+    },
+    {
+        "pk": 24,
+        "model": "products.product",
+        "fields": {
+            "category": 6,
+            "sku": "6002",
+            "name": "Rings",
+            "price": "27.99",
+            "rating": "5",
+            "description": "Mens Titanium ring",
+            "image_url": null,
+            "image": "men-titanium-ring.jpg"
+        }
+    },
+    {
+        "pk": 25,
+        "model": "products.product",
+        "fields": {
+            "category": 6,
+            "sku": "6003",
+            "name": "Necklace",
+            "price": "35.99",
+            "rating": "5",
+            "description": "Mens silver necklace with diamond engraved Christ pendant",
+            "image_url": null,
+            "image": "men-jesus-christ-necklace.jpg"
         }
     }
-
+  
 ]

@@ -3,8 +3,8 @@
         "pk": 1,
         "model": "products.category",
         "fields": {
-            "name": "necklaces",
-            "friendly_name": "necklaces"
+            "name": "Rings",
+            "friendly_name": "rings"
         }
     
     },
@@ -12,15 +12,15 @@
         "pk": 2,
         "model": "products.category",
         "fields": {
-            "name": "rings",
-            "friendly_name": "rings"
+            "name": "Necklace",
+            "friendly_name": "necklaces"
         }
     },
     {
         "pk": 3,
         "model": "products.category",
         "fields": {
-            "name": "bracelets",
+            "name": "Bracelets",
             "friendly_name": "bracelets"
         }
     } ,
@@ -36,28 +36,12 @@
         "pk": 5,
         "model": "products.category",
         "fields": {
-            "name": "Ladies",
-            "friendly_name": "Ladies"
-        }
-    },
-    {
-        "pk": 6,
-        "model": "products.category",
-        "fields": {
-            "name": "Gents",
-            "friendly_name": "Gents"
-        }
-    },
-    {
-        "pk": 7,
-        "model": "products.category",
-        "fields": {
-            "name": "sale",
+            "name": "Sale",
             "friendly_name": "Sale"
         }
     },
     {
-        "pk": 8,
+        "pk": 6,
         "model": "products.category",
         "fields": {
             "name": "new_arrivals",
