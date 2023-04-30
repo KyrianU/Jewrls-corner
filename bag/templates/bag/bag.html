@@ -37,31 +37,51 @@
 
                         {% for item in bag_items %}
                             <tr>
-                                <td class="p-3 w-25">
-                                    {% include "bag/product-image.html" %}
-                                </td>
-                                <td class="p-3">
-                                    {% include "bag/product-info.html" %}
-                                </td>
-                                <td class="p-3">
-                                    <p class="my-0">${{ item.product.price }}</p>
-                                </td>
-                                <td class="p-3">
-                                    {% include "bag/quantity-form.html" %}
-                                </td>
-                                <td class="p-3">
-                                    <p class="my-0">${{ item.product.price }}</p>
-                                </td>
+                              <td class="p-3 w-25">
+                                <img class="img-fluid rounded" src="{{ item.product.image.url }}"
+                                     alt="{{ item.product.name }}">
+                              </td>
+                              <td class="p-3">
+                                <p class="my-0"><strong>{{ item.product.name }}</strong></p>
+                                <p class="my-0 small text-muted">SKU: {{ item.product.sku|upper }}</p>
+                              </td>
+                              <td class="py-3">
+                                <p class="my-0">${{ item.product.price }}</p>
+                              </td>
+                              <td class="py-3 w-25">
+                                <p class="my-0">{{ item.quantity }}</p>
+                              </td>
+                              <td class="py-3">
+                                <p class="my-0">${{ item.product.price }}</p>
+                              </td>
                             </tr>
                         {% endfor %} 
                         <tr>
                             <td colspan="5" class="pt-5 text-right">
-                                {% include "bag/bag-total.html" %}
+                                <h6><strong>Total: ${{ total|floatformat:2 }}</strong></h6>
+                                <h6>Delivery: ${{ delivery_charge|floatformat:2 }}</h6>
+                                <h4 class="mt-4"><strong>Grand Total: ${{ grand_total|floatformat:2 }}</strong></h4>
+                                {% if free_delivery_delta > 0 %} 
+                                    <p class="mb-1 text-danger">
+                                        You could get free delivery by spending just <strong>${{ free_delivery_delta }}</strong> more!
+                                    </p>
+                                {% endif %}
                             </td>
                         </tr>
                         <tr>
                             <td colspan="5" class="pt-5 text-right">
-                                {% include "bag/bag-total.html" %}
+                                <a href="{% url 'products' %}" class="btn btn-outline-black m-1 float-end">
+                                    <span class="icon">
+                                        <i class="fas fa-arrow-alt-circle-left"></i>
+                                    </span>
+                                    <span class="text-uppercase">Keep Shopping</span>
+                                </a>
+                                <a href="" class="btn btn-black m-1 mb-5 float-end">
+                                    <span class="text-uppercase">Checkout</span>
+                                    <span class="icon">
+                                        <i class="fas fa-lock"></i>
+                                    </span>
+                                </a>
                             </td>
                         </tr>
                     </table>
@@ -78,4 +98,5 @@
         </div>
     </div>
 </div>
+
 {% endblock %}
