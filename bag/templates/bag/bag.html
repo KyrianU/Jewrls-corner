@@ -52,7 +52,7 @@
                                 <p class="my-0">${{ item.product.price }}</p>
                               </td>
                               <td class="py-3 w-25">
-                                <p class="my-0">{{ item.quantity }}</p>
+                                {% include "bag/quantity_form.html" %}
                               </td>
                               <td class="py-3">
                                 <p class="my-0">${{ item.product.price }}</p>
@@ -103,3 +103,32 @@
 </div>
 
 {% endblock %}
+
+{% block postloadjs %}
+{{ block.super }}
+
+<script>
+    // update item 
+    $('.update-link').click(function (e) {
+        var form = $(this).prev('.update-form');
+        form.sumbit();
+    })
+
+    // remove item from bag
+    $('.remove-item').click(function (e) {
+        var csrfToken = "{{ csrf_token }}";
+        var itemId = $(this).attr('id').split('remove_')[1];
+        var size = $(this).data('size');
+        var url = `/bag/remove/${itemId}/`;
+        var data = {
+            'csrfmiddlewaretoken': csrfToken,
+            'size': size
+        };
+
+        $.post(url, data)
+         .done(function() {
+             location.reload();
+         });
+    })
+</script>
+{% endblock %} 
