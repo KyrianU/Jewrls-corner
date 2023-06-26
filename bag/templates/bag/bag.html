@@ -109,13 +109,13 @@
 
 <script>
     // update item 
-    $('.update-link').click(function (e) {
+    $('.update-link').click(function(e) {
         var form = $(this).prev('.update-form');
-        form.sumbit();
+        form.submit();
     })
 
     // remove item from bag
-    $('.remove-item').click(function (e) {
+    $('.remove-item').click(function(e) {
         var csrfToken = "{{ csrf_token }}";
         var itemId = $(this).attr('id').split('remove_')[1];
         var size = $(this).data('size');
