@@ -1,6 +1,6 @@
     <script>
 
-
+        console.log('test')
         function handleEnableDisable(itemId) {
             var currentValue = parseInt($(`#id_qty_${itemId}`).val());
             var minusDisabled = currentValue < 2;
@@ -18,6 +18,7 @@
     $('.qty_input').change(function() {
         var itemId = $(this).data('item_id');
         handleEnableDisable(itemId);
+        console.log('quantity_input');
     });
 
 
@@ -28,6 +29,7 @@
        $(closestInput).val(currentValue + 1);
        var itemId = $(this).data('item_id');
        handleEnableDisable(itemId);
+       console.log('increment-quantity');
     });
 
 
@@ -38,6 +40,7 @@
        $(closestInput).val(currentValue - 1);
        var itemId = $(this).data('item_id');
        handleEnableDisable(itemId);
+       console.log('decrement-quantity');
     });
 
     </script>
