@@ -25,6 +25,7 @@ urlpatterns = [
     path('', include('home.urls')),
     path('products/', include('products.urls')),
     path('bag/', include('bag.urls')),
+    path('checkout/', include('checkout.urls')),
     path('terms/',
          TemplateView.as_view(template_name='terms.html'),
          name='terms'),
